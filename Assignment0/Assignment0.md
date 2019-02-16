@@ -23,12 +23,15 @@ Write a program that displays ```Hello, World!``` in the console.
 
 ### Question 2: Favorite Number
 
-#### Part 1: Get Favorite Number from user
+Alex is a little girl who wants to play a guess game. She starts the game with asking the player's name and his/her favourite number. Since she can only count up to 5, the player should choose a number between 1 and 5 to play the game with Alex. Then she will try to guess the number.
 
+#### Part 1: Get Favorite Number from User
 
+Write a program that takes the player's name and his/her favourite number.
 
-#### Part 2: --change this-- Your sister tries to guess she only knows 1 to 5
-In this question, you are expected to ask user's name and a number from 1 to 5. Then you should print five sentences as __"Hi ___ ! Your number is ___ . False"__ or __"Hi ___ ! Your number is ___ . True"__ depends on the truthness of the sentence. 
+#### Part 2: Guess The Number
+
+Then you should print five sentences as __"Hi ___ ! Your number is ___ . False"__ or __"Hi ___ ! Your number is ___ . True"__ depends on the truthness of the sentence. 
 
 ##### Sample Input
 ```
@@ -50,9 +53,27 @@ Hi Alex! Your number is 5. False
 
 ### Question 3: mathematical operations
 
-Todo
+In this question, you are expected to get two integers from the user. Then print the addition, subtraction, multiplication and division of these two integers as shown in the sample output. 
+
+##### Sample Input
+```
+First integer: 3
+Second integer: 2
+```
+
+##### Sample Output
+```
+3 + 2 = 5
+3 - 2 = 1
+3 * 2 = 6
+3 / 2 = 1.5
+```
 
 ## Grading
+
+Your grade for this assignment will be assessed on completion. If you successfully submit a Python program that largely follows the specification above, you will receive full credit on this assignment. We will not be very strict on edge cases, although we encourage you to attempt to match the above specification exactly.
+
+We will not be grading your style on this assignment, since we haven't yet talked about what good Python style looks like in detail. However, we will be leaving feedback on your style, so take a pass through your completed assignment to make its style feel good (to you!) if you haven't already done that.
 
 ## Submission
 
