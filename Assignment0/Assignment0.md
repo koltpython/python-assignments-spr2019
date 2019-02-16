@@ -18,15 +18,25 @@ If you would like to, get a quick refresher by flipping through our slides from 
 
 ## Questions
 
+### Question 1: Good old 'Hello, World!'
+Write a program that displays ```Hello, World!``` in the console.
+
+### Question 2: Favorite Number
+
+#### Part 1: Get Favorite Number from user
+
+
+
+#### Part 2: --change this-- Your sister tries to guess she only knows 1 to 5
 In this question, you are expected to ask user's name and a number from 1 to 5. Then you should print five sentences as __"Hi ___ ! Your number is ___ . False"__ or __"Hi ___ ! Your number is ___ . True"__ depends on the truthness of the sentence. 
 
-### Sample Input
+##### Sample Input
 ```
 What's your name? Alex
 Tell me a number from 1 to 5: 4
 ```
 
-### Sample Output
+##### Sample Output
 ```
 Hi Alex! Your number is 1. False
 Hi Alex! Your number is 2. False
@@ -35,9 +45,12 @@ Hi Alex! Your number is 4. True
 Hi Alex! Your number is 5. False
 ```
 
-### Information 
 
-== is an equality operator in programming languages. We use it to compare two variables or values and see if they are equal. It gives "True" or "False", correspondingly.
+> Hint: == is an equality operator in Python. We use it to compare two variables or values and see if they are equal. It gives True or False, correspondingly.
+
+### Question 3: mathematical operations
+
+Todo
 
 ## Grading
 
