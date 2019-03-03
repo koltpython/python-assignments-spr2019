@@ -36,6 +36,7 @@ for move_counter in range(42):
     # Take user input for column_no   
 
     # Check whether this is a valid move
+    # It needs to be an integer, hint: use str.isnumeric()
     # It needs to be in range [0, 6] inclusive
     # And the selected column cannot be full
     # You need to ask for new column_no until user enters a valid one
