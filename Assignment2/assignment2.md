@@ -18,7 +18,7 @@ If you would like to, get a quick refresher by flipping through our slides from 
 ## Starter Code
 Please get your starter code [here](https://github.com/koltpython/python-assignments/blob/master/Assignment2/assignment2.zip).
 
-> You can right click and save the file if download does not automatically start.
+> You should click view raw to download the zip file.
 
 ## Tasks
 
