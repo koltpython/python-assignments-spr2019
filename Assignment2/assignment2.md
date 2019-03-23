@@ -16,7 +16,7 @@ Note: Get started early! We want to resolve any confusions or submission problem
 If you would like to, get a quick refresher by flipping through our slides from the past weeks on the [course website](https://koltpython.github.io/lecture).
 
 ## Starter Code
-Please get your starter code [here](python-assignments/Assignment2/assignment2.zip).
+Please get your starter code [here](https://github.com/koltpython/python-assignments/blob/master/Assignment2/assignment2.zip).
 
 > You can right click and save the file if download does not automatically start.
 
