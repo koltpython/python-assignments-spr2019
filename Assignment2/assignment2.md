@@ -1,13 +1,15 @@
 # Assignment 2: Classifier
-> Due: 5:30 PM, Monday, April 1
+
+> Due: 11:59 PM, Wednesday, April 3
 
 ## Overview
+
 This assignment aims to give you practice with a few of the Python fundamentals we've covered in class. Specifically, you will use your knowledge about functions, data structures and file input/output.
 
 In this assignment you will write code to classify a students and professors list.
 
-- *Expected Time: 90 mins*
-- *Max Time: 180 mins*
+- _Expected Time: 90 mins_
+- _Max Time: 180 mins_
 
 Note: Get started early! We want to resolve any confusions or submission problems earlier rather than later.
 
@@ -16,9 +18,8 @@ Note: Get started early! We want to resolve any confusions or submission problem
 If you would like to, get a quick refresher by flipping through our slides from the past weeks on the [course website](https://koltpython.github.io/lecture).
 
 ## Starter Code
-Please get your starter code [here](https://github.com/koltpython/python-assignments/blob/master/Assignment2/assignment2.zip).
 
-> You should click view raw to download the zip file.
+Please get your starter code [here](https://github.com/koltpython/python-assignments/raw/master/Assignment2/assignment2.zip).
 
 ## Tasks
 
@@ -34,26 +35,27 @@ Professor Ashanti 55\
 Student Sonny 19\
 Student Blanche 25
 
-
 ### Task 1 : Reading The File
-You should create a dictionary as 
-`{'students': {}, 'professors': {}}`. In this dictionary, 'students' and 'professors' are keys that have dictionaries as values. In those inner dictionaries, you should keep person name as key and his/her age as its value. The code should read the file line by line, split the contents of a line and determines where to add informations into the dictionary. 
+
+You should create a dictionary as
+`{'students': {}, 'professors': {}}`. In this dictionary, 'students' and 'professors' are keys that have dictionaries as values. In those inner dictionaries, you should keep person name as key and his/her age as its value. The code should read the file line by line, split the contents of a line and determines where to add informations into the dictionary.
 
 For example,\
-`{'students': {'Marcia': '23', 'Aimee': '21', 'Sonny': '19', 'Blanche': '25'}, 'professors': {'Jami': '42', 'Elizabeth': '32', 'Ashanti': '55'}} ` \
-is how the dictionary should be after we added seven people in the upper list. 
+`{'students': {'Marcia': '23', 'Aimee': '21', 'Sonny': '19', 'Blanche': '25'}, 'professors': {'Jami': '42', 'Elizabeth': '32', 'Ashanti': '55'}}` \
+is how the dictionary should be after we added seven people in the upper list.
 
-If there are more than one person with same title and name, then they represent the same person. So, you should update the age of that person instead of adding a new person into the dictionary. 
+If there are more than one person with same title and name, then they represent the same person. So, you should update the age of that person instead of adding a new person into the dictionary.
 
 For example, if there is another Professor Elizabeth with age 25 in the file, then the dictionary will be updated as in the following:\
-`{'students': {'Marcia': '23', 'Aimee': '21', 'Sonny': '19', 'Blanche': '25'}, 'professors': {'Jami': '42', 'Elizabeth': '25', 'Ashanti': '55'}} `
+`{'students': {'Marcia': '23', 'Aimee': '21', 'Sonny': '19', 'Blanche': '25'}, 'professors': {'Jami': '42', 'Elizabeth': '25', 'Ashanti': '55'}}`
 
 However, notice that Student Elizabeth and Professor Elizabeth are two different people.
 
 ### Task 2: Sorting
-After you have added every person into the dictionary, you should sort the students and professors separately by their ages. You can implement a function which sorts dictionaries by their values to handle this task. 
 
-> **Hint:** dictionary.values() gives you the values in a dictionary and you can sort values by sorted() function which is already implemented in Python. However, your task is to sort dictionaries by using this sorted values. 
+After you have added every person into the dictionary, you should sort the students and professors separately by their ages. You can implement a function which sorts dictionaries by their values to handle this task.
+
+> **Hint:** dictionary.values() gives you the values in a dictionary and you can sort values by sorted() function which is already implemented in Python. However, your task is to sort dictionaries by using this sorted values.
 
 ### Task 3: Writing Into Files
 
@@ -72,7 +74,7 @@ Delores 37\
 Amanda 37\
 Colby 37
 
-You can check your txt files which should appear into your workspace. If you have these two files with names and ages in sorted order, congrats, you've finished your second homework successfully. 
+You can check your txt files which should appear into your workspace. If you have these two files with names and ages in sorted order, congrats, you've finished your second homework successfully.
 
 For further questions, please don't hesitate to contact [ikoprululu16@ku.edu.tr](mailto:ikoprululu16@ku.edu.tr).
 

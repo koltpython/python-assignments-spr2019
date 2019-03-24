@@ -1,4 +1,5 @@
 # Assignment 0: Welcome to Python!
+
 > Due: 5:30 PM, Mon Feb 25
 
 ## Overview
@@ -7,8 +8,8 @@ This introductory assignment aims to give you practice with a few of the Python 
 
 At a high level, in this assignment you will write code to practice variables and console input/output.
 
-- *Expected Time: 20 mins*
-- *Max Time: 40 mins*
+- _Expected Time: 20 mins_
+- _Max Time: 40 mins_
 
 Note: Get started early! We want to resolve any installation or submission problems earlier rather than later.
 
@@ -19,7 +20,8 @@ If you would like to, get a quick refresher by flipping through our slides from 
 ## Questions
 
 ### Question 1: Good old 'Hello, World!'
-Write a program that displays ```Hello, World!``` in the console.
+
+Write a program that displays `Hello, World!` in the console.
 
 ### Question 2: Favorite Number
 
@@ -30,6 +32,7 @@ Alex is a little girl who wants to play a guess game. She starts the game with a
 Write a program that takes the player's name and his/her favourite number, and print this number on console as shown below.
 
 ##### Sample Run
+
 ```
 What's your name? Heidi
 Tell me a number from 1 to 5: 4
@@ -38,11 +41,10 @@ Your favorite number is 4, Heidi.
 
 #### Part 2: Guess The Number
 
-Then you should print five sentences as __"Hi ___ ! Your number is ___ . False"__ or __"Hi ___ ! Your number is ___ . True"__ depending on the truthness of the sentence. 
-
-
+Then you should print five sentences as **"Hi \_** ! Your number is **\_ . False"** or **"Hi \_** ! Your number is **\_ . True"** depending on the truthness of the sentence.
 
 ##### Sample Output
+
 ```
 Hi Heidi! Your number is 1. False
 Hi Heidi! Your number is 2. False
@@ -51,20 +53,21 @@ Hi Heidi! Your number is 4. True
 Hi Heidi! Your number is 5. False
 ```
 
-
 > Hint: == is an equality operator in Python. We use it to compare two variables or values and see if they are equal. It gives True or False, correspondingly.
 
 ### Question 3: mathematical operations
 
-In this question, you are expected to get two integers from the user. Then print the addition, subtraction, multiplication and division of these two integers as shown in the sample output. 
+In this question, you are expected to get two integers from the user. Then print the addition, subtraction, multiplication and division of these two integers as shown in the sample output.
 
 ##### Sample Input
+
 ```
 First integer: 3
 Second integer: 2
 ```
 
 ##### Sample Output
+
 ```
 3 + 2 = 5
 3 - 2 = 1
@@ -81,6 +84,7 @@ Your grade for this assignment will be assessed on completion. If you successful
 We will not be grading your style on this assignment, since we haven't yet talked about what good Python style looks like in detail. However, we will be leaving feedback on your style, so take a pass through your completed assignment to make its style feel good (to you!) if you haven't already done that.
 
 ## Submission
+
 **WAIT FOR WEDNESDAY TO SEE HOW YOU WILL SUBMIT, WE WILL HAVE A SUBMISSION DEMO ON CLASS**
 
 To submit your solution, login into [course website](https://okpy.org) by using your Koc email address. The assignment submission page is under the course named **Python Certificate Program (Spring 2019)** which is already shared with you. All you have to do is to choose the assignment you solved and create a new submission. Drag and drop your code into the specified place, and submit it. If you have applied all these steps, congratulations, you sent your very first solution to us!
