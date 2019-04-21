@@ -14,6 +14,8 @@ What problems do you care about? Healthcare? Food insecurity? Education? Climate
 
 You can do almost anything you would like to!
 
+If you are not sure what can you do with Python, check out [`awesome-python`](https://awesome-python.com/).
+
 ## Random Ideas
 
 _Miscellaneous ideas that we thought of over the course of the quarter._
